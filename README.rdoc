@@ -1,28 +1,9 @@
 == README
+This is example How to use ckeditor upload imgage with carrierwave,(on locally or cloud)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Because [CkEditor](https://github.com/galetahub/ckeditor) has pool doc too use for image/file upload,this example just for who want to use
+carrierwave upload file in ckeditor.
+additonal you can save the file in aliyun oss, Just change CkeditorAttachmentFileUploader/CkeditorPictureUploader
+  "storage :aliyun"
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
