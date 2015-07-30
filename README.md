@@ -1,7 +1,7 @@
 # README
 This is example How to use ckeditor upload imgage with carrierwave,(on locally or cloud)
 
-Because [CkEditor](https://github.com/galetahub/ckeditor) has pool doc too use for image/file upload,this example just for who want to use
+Because [CkEditor](https://github.com/galetahub/ckeditor) has pool doc nearly can't complete image/file upload tester,this example just for who want to use
 carrierwave upload file in ckeditor.
 additonal you can save the file in aliyun oss, Just change CkeditorAttachmentFileUploader/CkeditorPictureUploader
 ```ruby
