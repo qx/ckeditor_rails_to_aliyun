@@ -9,7 +9,7 @@ Ckeditor.setup do |config|
   # Allowed image file types for upload.
   # Set to nil or [] (empty array) for all file types
   # By default: %w(jpg jpeg png gif tiff)
-  # config.image_file_types = ["jpg", "jpeg", "png", "gif", "tiff"]
+  config.image_file_types = ["jpg", "jpeg", "png", "gif", "tiff"]
 
   # Allowed attachment file types for upload.
   # Set to nil or [] (empty array) for all file types
@@ -21,8 +21,8 @@ Ckeditor.setup do |config|
   # config.authorize_with :cancan
 
   # Asset model classes
-  # config.picture_model { Ckeditor::Picture }
-  # config.attachment_file_model { Ckeditor::AttachmentFile }
+  config.picture_model { Ckeditor::Picture }
+  config.attachment_file_model { Ckeditor::AttachmentFile }
 
   # Paginate assets
   # By default: 24
@@ -36,8 +36,6 @@ Ckeditor.setup do |config|
   # By default: nil (no limit)
   # config.assets_languages = ['en', 'uk']
   # config.assets_plugins = ['image', 'smiley']
-  Ckeditor.setup do |config|
     config.assets_languages = ['en', 'zh_cn']
     config.assets_plugins = ['image', 'smiley']
-  end
 end

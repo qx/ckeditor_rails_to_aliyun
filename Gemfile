@@ -3,6 +3,7 @@ source 'https://ruby.taobao.org'
 gem 'ckeditor'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'annotate'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
