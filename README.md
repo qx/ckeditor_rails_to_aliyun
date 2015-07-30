@@ -29,4 +29,5 @@ Rails.application.config.assets.precompile += %w( ckeditor/* )
 
 #last
 >change database.yml, set your own user/password
+
 >change carrierwave.rb set your own aliyun_access_id/aliyun_access_key
