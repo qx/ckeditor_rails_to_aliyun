@@ -11,11 +11,11 @@ additonal you can save the file in aliyun oss, Just change CkeditorAttachmentFil
 Gemfile
 ```ruby
 gem 'rest-client'
-gem '[carrierwave-aliyun](https://github.com/huacnlee/carrierwave-aliyun)'
+gem 'carrierwave-aliyun'
 gem 'ckeditor'
 gem 'mini_magick'
 ```
-
+##'[carrierwave-aliyun](https://github.com/huacnlee/carrierwave-aliyun)'
 
 
 
